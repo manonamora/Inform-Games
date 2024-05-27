@@ -1,0 +1,600 @@
+"the 500 rooms game" by manonamora
+
+When play begins:
+say "[italic type]This was an idea for the Neo-Twiny Jam last year, and it was honestly a terrible one to play. So here it is... kinda. Sorta.";
+say "Anyway... you can only go one direction. But I won't tell you which one.[roman type]";
+say "It may or may not be possible to say something in there.";
+
+A A Corridor is a room.
+	"This".
+
+A The Same Corridor is east of A Corridor.
+	"This is"
+
+Still The Same Corridor is north of The Same Corridor.
+	 "This is a".
+
+Yup You Guest It - The Corridor is east of Still The Same Corridor.
+	"This is a short".
+
+You Won\'t Leave That Easily is south of Yup You Guest It - The Corridor.
+	"This is a short story,".
+
+You Can Try Though is west of You Won\'t Leave That Easily. 
+	"This is a short story, of".
+
+But You Will Probably End Up Lost is south of You Can Try Though.
+	"This is a short story, of 500".
+
+Anyway - Good Luck\! is west of But You Will Probably End Up Lost.
+	"This is a short story, of 500 words".
+
+Back In The Corridor is south of Anyway - Good Luck\!.
+	"This is a short story, of 500 words or".
+
+WYNRL is west of Back In The Corridor.
+	"This is a short story, of 500 words or less.".
+	The printed name is "Which You Never Really Left".
+
+YSHKN is north of WYNRL.
+	"This is a short story, of 500 words or less. But".
+	The printed name is "You Should Have Known That...".
+
+Room-A is east of YSHKN.
+	"This is a short story, of 500 words or less. But you".
+	The printed name is "But Maybe You Weren't Fooled".
+
+Room-B is south of Room-A.
+	"This is a short story, of 500 words or less. But you won’t".
+	The printed name is "Anyways... Back to the Corridor".
+
+Room-C is south of Room-B.
+	"This is a short story, of 500 words or less. But you won’t experience".
+	The printed name is "The Very Long Corridor".
+
+Room-D is west of Room-C.
+	"This is a short story, of 500 words or less. But you won’t experience it".
+	The printed name is  "The Increasingly Long Corridor".
+
+Room-E is north of Room-D.
+	"This is a short story, of 500 words or less. But you won’t experience it right".
+	The printed name is "The Is-it-me-or-can't-I-see-the-end Corridor".
+
+Room-F is east of Room-E.
+	"This is a short story, of 500 words or less. But you won’t experience it right away,".
+	The printed name is "The I-think-I-saw-the-exit-but-now-I'm-not-sure Corridor".
+
+Room-G is north of Room-F.
+	"This is a short story, of 500 words or less. But you won’t experience it right away, because".
+	The printed name is "So Yes, It Is A Long Corridor".
+
+Room-H is west of Room-G.
+	"This is a short story, of 500 words or less. But you won’t experience it right away, because it".
+	The printed name is "Maybe You Will Find The Exit?".
+
+Room-I is north of Room-H.
+	"This is a short story, of 500 words or less. But you won’t experience it right away, because it wouldn’t".
+	The printed name is "Here Is a Secret: There Is No Logic To This Game".
+
+Room-J is east of Room-I.
+	"This is a short story, of 500 words or less. But you won’t experience it right away, because it wouldn’t be".
+	The printed name is "You Just Need To Be Lucky".
+
+Room-K is north of Room-J.
+	"This is a short story, of 500 words or less. But you won’t experience it right away, because it wouldn’t be any fun.".
+	The printed name is "But You Probably Won't Be".
+
+Room-L is west of Room-K.
+	"This is a short story, of 500 words or less. But you won’t experience it right away, because it wouldn’t be any fun.
+
+	And".
+	The printed name is "Because This Is A Long Corridor".
+	
+Room-M is east of Room-L.
+	"This is a short story, of 500 words or less. But you won’t experience it right away, because it wouldn’t be any fun.
+
+	And because".
+	The printed name is "A Very Long Corridor".
+
+Room-N is north of Room-M.
+	"This is a short story, of 500 words or less. But you won’t experience it right away, because it wouldn’t be any fun.
+
+	And because I".
+	The printed name is "A Really Really Long Corridor".
+
+Room-O is east of Room-N.
+	"This is a short story, of 500 words or less. But you won’t experience it right away, because it wouldn’t be any fun.
+
+	And because I am".
+	The printed name is "And It Is A Very Boring Corridor".
+	
+Room-P is south of Room-O.
+	"This is a short story, of 500 words or less. But you won’t experience it right away, because it wouldn’t be any fun.
+
+	And because I am not".
+	The printed name is "With Nothing To Do".
+
+Room-Q is west of Room-P.
+	"This is a short story, of 500 words or less. But you won’t experience it right away, because it wouldn’t be any fun.
+
+	And because I am not a".
+	The printed name is "Except Continuing On The Path".
+
+Room-R is north of Room-Q.
+	"This is a short story, of 500 words or less. But you won’t experience it right away, because it wouldn’t be any fun.
+
+	And because I am not a kind".
+	The printed name is "You Can Try To Go Back".
+
+Room-S is west of Room-R.
+	"This is a short story, of 500 words or less. But you won’t experience it right away, because it wouldn’t be any fun.
+
+	And because I am not a kind soul,".
+	The printed name is "But There Is Nothing Interesting".
+
+Room-T is south of Room-S.
+	"This is a short story, of 500 words or less. But you won’t experience it right away, because it wouldn’t be any fun.
+
+	And because I am not a kind soul, you will".
+	The printed name is "Did You Try Going Back?".
+
+Room-U is east of Room-T.
+	"This is a short story, of 500 words or less. But you won’t experience it right away, because it wouldn’t be any fun.
+
+	And because I am not a kind soul, you will need".
+	The printed name is "Did You Found What You Were Looking For?".
+
+Room-V is east of Room-U.
+	"This is a short story, of 500 words or less. But you won’t experience it right away, because it wouldn’t be any fun.
+
+	And because I am not a kind soul, you will need to".
+	The printed name is "Lol... This is Stupid, Right?".
+
+Room-W is north of Room-V.
+	"This is a short story, of 500 words or less. But you won’t experience it right away, because it wouldn’t be any fun.
+
+	And because I am not a kind soul, you will need to struggle".
+	The printed name is "Let's Get Back To The Corridor.".
+
+Room-X is east of Room-W.
+	"This is a short story, of 500 words or less. But you won’t experience it right away, because it wouldn’t be any fun.
+
+	And because I am not a kind soul, you will need to struggle to".
+	The printed name is "The Really Long Corridor.".
+
+Room-Y is south of Room-X.
+	"This is a short story, of 500 words or less. But you won’t experience it right away, because it wouldn’t be any fun.
+
+	And because I am not a kind soul, you will need to struggle to get".
+	The printed name is "Maybe You'll Spot A Door.".
+
+Room-Z is south of Room-Y.
+	"This is a short story, of 500 words or less. But you won’t experience it right away, because it wouldn’t be any fun.
+
+	And because I am not a kind soul, you will need to struggle to get to".
+	The printed name is "Oh, Didn't I Mention There Were No Doors In This Corridor?".
+
+Room-AA is west of Room-Z.
+	"This is a short story, of 500 words or less. But you won’t experience it right away, because it wouldn’t be any fun.
+
+	And because I am not a kind soul, you will need to struggle to get to the".
+	The printed name is "Maybe You'll Find a Dog.".
+
+Room-AB is west of Room-AA.
+	"This is a short story, of 500 words or less. But you won’t experience it right away, because it wouldn’t be any fun.
+
+	And because I am not a kind soul, you will need to struggle to get to the end.".
+	The printed name is "Like In This Room".
+
+Room-AC is north of Room-AB.
+	"This is a short story, of 500 words or less. But you won’t experience it right away, because it wouldn’t be any fun.
+
+	And because I am not a kind soul, you will need to struggle to get to the end. It".
+	The printed name is "Or Maybe It Will Appear In This Room".
+
+Room-AD is east of Room-AC.
+	"This is a short story, of 500 words or less. But you won’t experience it right away, because it wouldn’t be any fun.
+
+	And because I am not a kind soul, you will need to struggle to get to the end. It is".
+	The printed name is "Or Maybe This One?".
+
+Room-AE is north of Room-AD.
+	"This is a short story, of 500 words or less. But you won’t experience it right away, because it wouldn’t be any fun.
+
+	And because I am not a kind soul, you will need to struggle to get to the end. It is some".
+	The printed name is "Oh Here!".
+
+Room-AF is east of Room-AE.
+	"This is a short story, of 500 words or less. But you won’t experience it right away, because it wouldn’t be any fun.
+
+	And because I am not a kind soul, you will need to struggle to get to the end. It is some sort".
+	The printed name is "Hmmm... I Guess Not.".
+
+Room-AG is south of Room-AF.
+	"This is a short story, of 500 words or less. But you won’t experience it right away, because it wouldn’t be any fun.
+
+	And because I am not a kind soul, you will need to struggle to get to the end. It is some sort of ".
+	The printed name is "Must Be A Trick Of Your Imagination.".
+
+Room-AH is west of Room-AG.
+	"This is a short story, of 500 words or less. But you won’t experience it right away, because it wouldn’t be any fun.
+
+	And because I am not a kind soul, you will need to struggle to get to the end. It is some sort of a".
+	The printed name is "Like This Lady Over There".
+
+Room-AI is south of Room-AH.
+	"This is a short story, of 500 words or less. But you won’t experience it right away, because it wouldn’t be any fun.
+
+	And because I am not a kind soul, you will need to struggle to get to the end. It is some sort of a maze".
+	The printed name is "Yes, The One Waving At You".
+
+Room-AJ is east of Room-AI.
+	"This is a short story, of 500 words or less. But you won’t experience it right away, because it wouldn’t be any fun.
+
+	And because I am not a kind soul, you will need to struggle to get to the end. It is some sort of a maze I ".
+	The printed name is "Can't You See Her?".
+
+Room-AK is south of Room-AJ.
+	"This is a short story, of 500 words or less. But you won’t experience it right away, because it wouldn’t be any fun.
+
+	And because I am not a kind soul, you will need to struggle to get to the end. It is some sort of a maze I suppose,".
+	The printed name is "She's Pretty Striking!".
+
+Room-AL is west of Room-AK.
+"This is a short story, of 500 words or less. But you won’t experience it right away, because it wouldn’t be any fun.
+
+	And because I am not a kind soul, you will need to struggle to get to the end. It is some sort of a maze I suppose, except".
+	The printed name is "Oh, You Don't See Her?".
+
+Room-AM is north of Room-AL.
+"This is a short story, of 500 words or less. But you won’t experience it right away, because it wouldn’t be any fun.
+
+	And because I am not a kind soul, you will need to struggle to get to the end. It is some sort of a maze I suppose, except you".
+	The printed name is "Well... That's A Shame.".
+
+Room-AN is east of Room-AM.
+"This is a short story, of 500 words or less. But you won’t experience it right away, because it wouldn’t be any fun.
+
+	And because I am not a kind soul, you will need to struggle to get to the end. It is some sort of a maze I suppose, except you can".
+	The printed name is "Maybe You'll Spot Her Later...".
+
+Room-AO is east of Room-AN.
+"This is a short story, of 500 words or less. But you won’t experience it right away, because it wouldn’t be any fun.
+
+	And because I am not a kind soul, you will need to struggle to get to the end. It is some sort of a maze I suppose, except you can quit".
+	The printed name is "... In This Very Long Corridor.".
+
+Room-AP is south of Room-AO.
+"This is a short story, of 500 words or less. But you won’t experience it right away, because it wouldn’t be any fun.
+
+	And because I am not a kind soul, you will need to struggle to get to the end. It is some sort of a maze I suppose, except you can quit at".
+	The printed name is "Ooooh... Can You Hear This?".
+
+Room-AQ is west of Room-AP.
+"This is a short story, of 500 words or less. But you won’t experience it right away, because it wouldn’t be any fun.
+
+	And because I am not a kind soul, you will need to struggle to get to the end. It is some sort of a maze I suppose, except you can quit at anytime.".
+	The printed name is "From the Other Side of the Wall....".
+
+Room-AR is south of Room-AQ.
+"This is a short story, of 500 words or less. But you won’t experience it right away, because it wouldn’t be any fun.
+
+	And because I am not a kind soul, you will need to struggle to get to the end. It is some sort of a maze I suppose, except you can quit at anytime.
+
+	If".
+	The printed name is "... Is That Music?".
+
+Room-AS is south of Room-AR.
+"This is a short story, of 500 words or less. But you won’t experience it right away, because it wouldn’t be any fun.
+
+	And because I am not a kind soul, you will need to struggle to get to the end. It is some sort of a maze I suppose, except you can quit at anytime.
+
+	If you ".
+	The printed name is "Yappers! It's Jazzy!".
+
+Room-AT is west of Room-AS.
+"This is a short story, of 500 words or less. But you won’t experience it right away, because it wouldn’t be any fun.
+
+	And because I am not a kind soul, you will need to struggle to get to the end. It is some sort of a maze I suppose, except you can quit at anytime.
+
+	If you are".
+	The printed name is "Can You Hear It Too?".
+
+Room-AU is north of Room-AT.
+"This is a short story, of 500 words or less. But you won’t experience it right away, because it wouldn’t be any fun.
+
+	And because I am not a kind soul, you will need to struggle to get to the end. It is some sort of a maze I suppose, except you can quit at anytime.
+
+	If you are lucky".
+	The printed name is "Oh, You Can't?".
+
+Room-AV is east of Room-AU.
+"This is a short story, of 500 words or less. But you won’t experience it right away, because it wouldn’t be any fun.
+
+	And because I am not a kind soul, you will need to struggle to get to the end. It is some sort of a maze I suppose, except you can quit at anytime.
+
+	If you are lucky however,".
+	The printed name is "That's Strange...".
+
+Room-AW is north of Room-AV.
+"This is a short story, of 500 words or less. But you won’t experience it right away, because it wouldn’t be any fun.
+
+	And because I am not a kind soul, you will need to struggle to get to the end. It is some sort of a maze I suppose, except you can quit at anytime.
+
+	If you are lucky however, you".
+	The printed name is "Are You Sure You Are Quite Alright?".
+
+Room-AX is north of Room-AW.
+"This is a short story, of 500 words or less. But you won’t experience it right away, because it wouldn’t be any fun.
+
+	And because I am not a kind soul, you will need to struggle to get to the end. It is some sort of a maze I suppose, except you can quit at anytime.
+
+	If you are lucky however, you will".
+	The printed name is "Because You Can't See Or Hear What I See...".
+
+Room-AY is east of Room-AX.
+"This is a short story, of 500 words or less. But you won’t experience it right away, because it wouldn’t be any fun.
+
+	And because I am not a kind soul, you will need to struggle to get to the end. It is some sort of a maze I suppose, except you can quit at anytime.
+
+	If you are lucky however, you will find".
+	The printed name is "But I Am Standing Next To You!".
+
+Room-AZ is south of Room-AY.
+"This is a short story, of 500 words or less. But you won’t experience it right away, because it wouldn’t be any fun.
+
+	And because I am not a kind soul, you will need to struggle to get to the end. It is some sort of a maze I suppose, except you can quit at anytime.
+
+	If you are lucky however, you will find a".
+	The printed name is "CAN YOU NOT SEE ME?!?!".
+
+Room-BA is west of Room-AZ.
+"This is a short story, of 500 words or less. But you won’t experience it right away, because it wouldn’t be any fun.
+
+	And because I am not a kind soul, you will need to struggle to get to the end. It is some sort of a maze I suppose, except you can quit at anytime.
+
+	If you are lucky however, you will find a special".
+	The printed name is "ARE YOU SERIOUS?!".
+
+Room-BB is north of Room-BA.
+"This is a short story, of 500 words or less. But you won’t experience it right away, because it wouldn’t be any fun.
+
+	And because I am not a kind soul, you will need to struggle to get to the end. It is some sort of a maze I suppose, except you can quit at anytime.
+
+	If you are lucky however, you will find a special word".
+	The printed name is "Am I A Ghost?".
+
+Room-BC is west of Room-BB.
+"This is a short story, of 500 words or less. But you won’t experience it right away, because it wouldn’t be any fun.
+
+	And because I am not a kind soul, you will need to struggle to get to the end. It is some sort of a maze I suppose, except you can quit at anytime.
+
+	If you are lucky however, you will find a special word to".
+	The printed name is "No... I Can't Be. I'm Not Dead!".
+
+Room-BD is north of Room-BC.
+"This is a short story, of 500 words or less. But you won’t experience it right away, because it wouldn’t be any fun.
+
+	And because I am not a kind soul, you will need to struggle to get to the end. It is some sort of a maze I suppose, except you can quit at anytime.
+
+	If you are lucky however, you will find a special word to stop".
+	The printed name is "Unless... Say, What Year Is This?".
+
+Room-BE is east of Room-BD.
+"This is a short story, of 500 words or less. But you won’t experience it right away, because it wouldn’t be any fun.
+
+	And because I am not a kind soul, you will need to struggle to get to the end. It is some sort of a maze I suppose, except you can quit at anytime.
+
+	If you are lucky however, you will find a special word to stop this".
+	The printed name is "HA! HAHAHAHAHAHAHAH!".
+
+Room-BF is east of Room-BE.
+"This is a short story, of 500 words or less. But you won’t experience it right away, because it wouldn’t be any fun.
+
+	And because I am not a kind soul, you will need to struggle to get to the end. It is some sort of a maze I suppose, except you can quit at anytime.
+
+	If you are lucky however, you will find a special word to stop this nightmare".
+	The printed name is "Look At Your Face!".
+
+Room-BG is north of Room-BF.
+"This is a short story, of 500 words or less. But you won’t experience it right away, because it wouldn’t be any fun.
+
+	And because I am not a kind soul, you will need to struggle to get to the end. It is some sort of a maze I suppose, except you can quit at anytime.
+
+	If you are lucky however, you will find a special word to stop this nightmare and".
+	The printed name is "Oh, Man! You Are Too Easy To Fool!".
+
+Room-BH is west of Room-BG.
+"This is a short story, of 500 words or less. But you won’t experience it right away, because it wouldn’t be any fun.
+
+	And because I am not a kind soul, you will need to struggle to get to the end. It is some sort of a maze I suppose, except you can quit at anytime.
+
+	If you are lucky however, you will find a special word to stop this nightmare and that".
+	The printed name is "Anyway... How Far Are We In This Corridor?".
+
+Room-BI is south of Room-BH.
+"This is a short story, of 500 words or less. But you won’t experience it right away, because it wouldn’t be any fun.
+
+	And because I am not a kind soul, you will need to struggle to get to the end. It is some sort of a maze I suppose, except you can quit at anytime.
+
+	If you are lucky however, you will find a special word to stop this nightmare and that will".
+	The printed name is "Well... You Haven't Made Much Progress.".
+
+Room-BJ is south of Room-BI.
+"This is a short story, of 500 words or less. But you won’t experience it right away, because it wouldn’t be any fun.
+
+	And because I am not a kind soul, you will need to struggle to get to the end. It is some sort of a maze I suppose, except you can quit at anytime.
+
+	If you are lucky however, you will find a special word to stop this nightmare and that will send".
+	The printed name is "Running Around, A Bit In Circles, Actually".
+
+Room-BK is west of Room-BJ.
+"This is a short story, of 500 words or less. But you won’t experience it right away, because it wouldn’t be any fun.
+
+	And because I am not a kind soul, you will need to struggle to get to the end. It is some sort of a maze I suppose, except you can quit at anytime.
+
+	If you are lucky however, you will find a special word to stop this nightmare and that will send you".
+	The printed name is "Going Left and Right, and Sometimes Straight.".
+
+Room-BL is north of Room-BK.
+"This is a short story, of 500 words or less. But you won’t experience it right away, because it wouldn’t be any fun.
+
+	And because I am not a kind soul, you will need to struggle to get to the end. It is some sort of a maze I suppose, except you can quit at anytime.
+
+	If you are lucky however, you will find a special word to stop this nightmare and that will send you right".
+	The printed name is "Good Thing You Don't Need to Try Up Or Down".
+
+Room-BM is east of Room-BL.
+"This is a short story, of 500 words or less. But you won’t experience it right away, because it wouldn’t be any fun.
+
+	And because I am not a kind soul, you will need to struggle to get to the end. It is some sort of a maze I suppose, except you can quit at anytime.
+
+	If you are lucky however, you will find a special word to stop this nightmare and that will send you right to".
+	The printed name is "Or In Or Out... Well Maybe Out Would Help.".
+
+Room-BN is south of Room-BM.
+"This is a short story, of 500 words or less. But you won’t experience it right away, because it wouldn’t be any fun.
+
+	And because I am not a kind soul, you will need to struggle to get to the end. It is some sort of a maze I suppose, except you can quit at anytime.
+
+	If you are lucky however, you will find a special word to stop this nightmare and that will send you right to the".
+	The printed name is "But There Aren't Any Doors, So...".
+
+Room-BO is east of Room-BN.
+"This is a short story, of 500 words or less. But you won’t experience it right away, because it wouldn’t be any fun.
+
+	And because I am not a kind soul, you will need to struggle to get to the end. It is some sort of a maze I suppose, except you can quit at anytime.
+
+	If you are lucky however, you will find a special word to stop this nightmare and that will send you right to the end.".
+	The printed name is "Running Around It Is!".
+
+Room-BP is south of Room-BO.
+"This is a short story, of 500 words or less. But you won’t experience it right away, because it wouldn’t be any fun.
+
+	And because I am not a kind soul, you will need to struggle to get to the end. It is some sort of a maze I suppose, except you can quit at anytime.
+
+	If you are lucky however, you will find a special word to stop this nightmare and that will send you right to the end.
+
+	Except,".
+	The printed name is "Isn't It Fun?".
+
+Room-BQ is west of Room-BP.
+"This is a short story, of 500 words or less. But you won’t experience it right away, because it wouldn’t be any fun.
+
+	And because I am not a kind soul, you will need to struggle to get to the end. It is some sort of a maze I suppose, except you can quit at anytime.
+
+	If you are lucky however, you will find a special word to stop this nightmare and that will send you right to the end.
+
+	Except, this".
+	The printed name is "Or Are You Getting A Bit Frustrated?".
+
+Room-BR is west of Room-BQ.
+"This is a short story, of 500 words or less. But you won’t experience it right away, because it wouldn’t be any fun.
+
+	And because I am not a kind soul, you will need to struggle to get to the end. It is some sort of a maze I suppose, except you can quit at anytime.
+
+	If you are lucky however, you will find a special word to stop this nightmare and that will send you right to the end.
+
+	Except, this word".
+	The printed name is "Please Say Yes, Please Say Yes!".
+
+Room-BS is north of Room-BR.
+"This is a short story, of 500 words or less. But you won’t experience it right away, because it wouldn’t be any fun.
+
+	And because I am not a kind soul, you will need to struggle to get to the end. It is some sort of a maze I suppose, except you can quit at anytime.
+
+	If you are lucky however, you will find a special word to stop this nightmare and that will send you right to the end.
+
+	Except, this word doesn’t".
+	The printed name is "Why? Cause My Job Depends On It! Obviously...".
+
+Room-BT is north of Room-BS.
+"This is a short story, of 500 words or less. But you won’t experience it right away, because it wouldn’t be any fun.
+
+	And because I am not a kind soul, you will need to struggle to get to the end. It is some sort of a maze I suppose, except you can quit at anytime.
+
+	If you are lucky however, you will find a special word to stop this nightmare and that will send you right to the end.
+
+	Except, this word doesn’t exist,".
+	The printed name is "BUT! You Will Happy To Know I've Lied To You...".
+
+Room-BU is east of Room-BT.
+"This is a short story, of 500 words or less. But you won’t experience it right away, because it wouldn’t be any fun.
+
+	And because I am not a kind soul, you will need to struggle to get to the end. It is some sort of a maze I suppose, except you can quit at anytime.
+
+	If you are lucky however, you will find a special word to stop this nightmare and that will send you right to the end.
+
+	Except, this word doesn’t exist, because".
+	The printed name is "... Yes, All This Time.".
+
+Room-BV is south of Room-BU.
+"This is a short story, of 500 words or less. But you won’t experience it right away, because it wouldn’t be any fun.
+
+	And because I am not a kind soul, you will need to struggle to get to the end. It is some sort of a maze I suppose, except you can quit at anytime.
+
+	If you are lucky however, you will find a special word to stop this nightmare and that will send you right to the end.
+
+	Except, this word doesn’t exist, because I ".
+	The printed name is "It Is About The Length Of This Corridor.".
+
+Room-BW is west of Room-BV.
+"This is a short story, of 500 words or less. But you won’t experience it right away, because it wouldn’t be any fun.
+
+	And because I am not a kind soul, you will need to struggle to get to the end. It is some sort of a maze I suppose, except you can quit at anytime.
+
+	If you are lucky however, you will find a special word to stop this nightmare and that will send you right to the end.
+
+	Except, this word doesn’t exist, because I never".
+	The printed name is "It Doesn't really Go That Far.".
+
+Room-BX is south of Room-BW.
+"This is a short story, of 500 words or less. But you won’t experience it right away, because it wouldn’t be any fun.
+
+	And because I am not a kind soul, you will need to struggle to get to the end. It is some sort of a maze I suppose, except you can quit at anytime.
+
+	If you are lucky however, you will find a special word to stop this nightmare and that will send you right to the end.
+
+	Except, this word doesn’t exist, because I never managed ".
+	The printed name is "See... We've Passed 500 Lines Of Code.".
+
+Room-BY is east of Room-BX.
+"This is a short story, of 500 words or less. But you won’t experience it right away, because it wouldn’t be any fun.
+
+	And because I am not a kind soul, you will need to struggle to get to the end. It is some sort of a maze I suppose, except you can quit at anytime.
+
+	If you are lucky however, you will find a special word to stop this nightmare and that will send you right to the end.
+
+	Except, this word doesn’t exist, because I never managed to".
+	The printed name is "But You Won't See 500 Rooms.".
+
+Room-BZ is north of Room-BY.
+"This is a short story, of 500 words or less. But you won’t experience it right away, because it wouldn’t be any fun.
+
+	And because I am not a kind soul, you will need to struggle to get to the end. It is some sort of a maze I suppose, except you can quit at anytime.
+
+	If you are lucky however, you will find a special word to stop this nightmare and that will send you right to the end.
+
+	Except, this word doesn’t exist, because I never managed to finish".
+	The printed name is "So This Is Where We Part, My Friend. Because You Are...".
+
+Almost There is west of Room-BZ.
+"This is a short story, of 500 words or less. But you won’t experience it right away, because it wouldn’t be any fun.
+
+	And because I am not a kind soul, you will need to struggle to get to the end. It is some sort of a maze I suppose, except you can quit at anytime.
+
+	If you are lucky however, you will find a special word to stop this nightmare and that will send you right to the end.
+
+	Except, this word doesn’t exist, because I never managed to finish this".
+
+
+The The Actual End Of The Game is south of Almost There.
+	"This is a short story, of 500 words or less. But you won’t experience it right away, because it wouldn’t be any fun.
+
+	And because I am not a kind soul, you will need to struggle to get to the end. It is some sort of a maze I suppose, except you can quit at anytime.
+
+	If you are lucky however, you will find a special word to stop this nightmare and that will send you right to the end.
+
+	Except, this word doesn’t exist, because I never managed to finish this game.".
+After entering room:
+	end the story; 

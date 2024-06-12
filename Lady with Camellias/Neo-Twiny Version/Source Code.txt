@@ -1,0 +1,205 @@
+"The Lady of the Camellias" by manonamora
+
+The release number is 1.
+The story genre is "Other".
+The story creation year is 2024.
+The story author is "manonamora".
+The story headline is "A Neo-Twiny adaptation".
+The story title is "The Lady of the Camellias".
+The story description is "A meeting, one night, at the Opera, that will change your life.".
+Release along with a website.
+Release along with an interpreter.
+Release along with the source text.
+
+when play begins:
+	say "[italic type]What a bore to be alone at the Opera... 
+
+	[roman type]For new players, type [italic type]HELP[roman type] to start.[line break]You may also want to type [italic type]ABOUT[roman type] for more information about this piece.".
+	now the player is in the chair.
+
+Chapter 0 - The Basic stuff
+
+Helping is an action applying to nothing.
+Understand "help" as helping.
+Instead of helping, 
+	say "Use [italic type]N[roman type], [italic type]E[roman type], [italic type]S[roman type], [italic type]W[roman type] to move between rooms; [italic type]I[roman type] for examining your inventory, [italic type]L[roman type] to see the description of the current room, and [italic type]X[roman type] to examine something.[line break] You can also [italic type]TALK TO SOMEONE[roman type].[line break]A [italic type]WALKTHROUGH[roman type] is also available.".
+
+Abouting is an action applying to nothing.
+Understand "about" as abouting.
+Instead of Abouting, 
+	say "Hi! This is the author, Manon. I've made this on a whim after reading [italic type]The Lady of the Camellias[roman type]. 
+	
+Actually, I wanted to so more variation, with some sort of seeding where it would essentially be a fail state from the start unless you quit/restart. BUT that would require way too many words to do what I had envisioned. So here's a shorter version of my vision. Maybe a fuller version will happen later. I don't know. I've left notes and comments in the source code for those interested to see how the idea was going to go.
+	
+ANYWAY. This was another Inform 7 learning experience (where I still don't know what I'm doing. BEING SO FREAKING CLOSE TO 500 words, you have no idea. I got to learn about blocks on the path, diverging paths, and objects, and some conditional statements (even if they are not technically implemented in the final piece). It's not great, but it's something? ...
+
+Essentially, this is a hubris project. Thinking I could adapt this in so little words. LOL".
+
+Walkthroughing is an action applying to nothing.
+Understand "walkthough" as walkthroughing.
+Instead of walkthroughing:
+	say "To complete this prototype, examine the box, the woman and the camellia. Then go south, west, and north. Finally, talk to the woman.".
+
+[you]
+The description of player is "You are Armand Duval, a young bourgeois, looking for the love of a special woman.".
+Evening attire is an object. It is worn by the player. The description is "An evening costume, fitting for a night at the Opera.".
+[COMMENT:
+	I would have wanted more for the player, maybe have different descriptions of the player depending on his state.
+	Also stuff in his pockets.
+	But, ya know... words... There are only so many. I'm pretty sure my comments are longer than the actual wordcount!
+]
+
+Chapter 0.5 - The Synonyms I guess
+
+Talking to is an action applying to one visible thing. Understand "talk to [someone]",  "talk [someone]",  "talk with [someone]","converse with [someone]", "speak to [someone]", or "speak to [someone]" as talking to.
+[COMMENT: 
+	In  a longer version, there would be more synonyms for verbs and nouns. But only talk is required here to complete the game.
+]
+
+
+Chapter 1 - The Starting Room
+
+YourBox is a room.
+	"You are sitting in your box, bored out of your mind, barely watching the play on the stage below. Even the sea of seated of spectators below don't interest you. Only the exclusive box opposite to yours catches your eye.
+	
+	You could always exit your box through the southern door.".
+	The printed name is "Opera box".
+[COMMENT:
+	If I was going this in Adventuron, I wouldn't need to waste words with direction descriptions  xD
+	Have Duval properly sit at the start of the game, with seating being scenery or something, and the description changing depending on whether he is sitting or standing. But i can't be bothered to lose precious words for a conditional gimmick. It would have been neat tho...
+]
+The Exclusive box is here. The Exclusive box is scenery. 
+	"In the box across from yours, still the most angelic and beautiful woman you'd ever seen. 
+
+	[italic type]Who is she...".
+The Beautiful Woman is here. The Beautiful Woman is scenery. 
+	"Drapped in the finest silks and lace, dripping in the brightest diamonds, she dazzles your eyes with her beauty. In her arms, a gigantic bouquet of camellias. Her eyes meets yours, and she smiles.".
+	Understand "woman" or "lady" as woman.
+The camellia is here. the camellia is scenery. 
+	"In her frail arms, white camellias, as pure as milk.
+
+	The mysterious woman playfully winks at you. [italic type]That's it! I have to talk to her!".
+	Understand "camellia" or "bouquet" or "flower" or "camellias" or "flowers" as camellia.
+[COMMENT:
+	In an unrestricted wordcount world, the descriptions would stack lol. Like going into details about the outfit she is wearing. Maybe even have Duval take Opera binoculars to "see" how she looks like, otherwise it's all a blur.
+	I would even have an NPC that knows Marguerite, and from whom you could ask questions. Also would tag along and "introduce you" to her. (Like in the book recounting the first meeting, but have it a bit different...?
+]
+
+Instead of going south from YourBox when we have not examined the camellia: 
+	say "Even in your absolute boredom, you cannot think of a reason to leave your box. Instead of becoming the talk of the town, you hope instead to find something of interest.".
+Instead of going south from YourBox when we have examined the camellia: 
+	say "Your hand already turns the handle, and your feet out of the box, before your mind is even set.";
+	continue the action.
+Instead of talking to the Woman:
+	say "It would be improper to shout simply to get her attention.".
+[COMMENT:
+	Watching the play (multiple turns), would end the game, because Marguerite would get visited by the Duke and leave the Opera theater.
+]
+
+
+Chapter 2 - Get in the Corridor
+
+CorridorOutsideYou is south of YourBox.
+	"Just outside of your box, it is bustling with people. [italic type] Hhmmm... Too busy for a still-ongoing act.[roman type]
+
+	You now stand in this corridor, which continues further West.".
+	The printed name is "Opera Corridor (East)".
+Bustling People are here. Bustling People are scenery. 
+	"You recognise few faces, and still do not care enough to strike a conversation with the ones you do".
+Instead of talking to People:
+	say "You do not care enough to strike a conversation with them.".
+[COMMENT:
+	I think I would have some people here you could talk to, but not in a friendly manner? Or more luscious descriptions of the corridor.
+	Maybe even a few other courtisanes you could "invite" to your box instead?
+	Or there's something happening you can investigate -> losing time to meet Marguerite?
+]
+
+CorridorOustideHer is west of CorridorOutsideYou.
+	"In the Western part of the Corridor, you find a line of anxious callers standing before a door. [italic type]Her[roman type] door. [italic type]Has no one dared to...[roman type]
+
+	The door is North of you. You can otherwise retrace your steps in the East."
+	The printed name is "Opera Corridor (West)".
+Callers are here. Callers are scenery. 
+	"Anxious callers waiting by her door. None seem to dare to enter, or even knock. [italic type]Would I even have a chance?".
+Instead of going to MargBox:
+	say "Though some of the callers try to stop you, berating you for not waiting your turn, you brush them aside, courageously knocking on the door and entering soon after.";
+	continue the action.
+Instead of talking to Callers:
+	say "You get little out of the anxious callers, berating you for not waiting your turn".
+[COMMENT:
+	- the going to the box should also include knocking, not just moving north, but I don't know how to do that.
+	- I would also want to maybe fight the other callers, or have some talk down or something silly like this
+]
+
+
+Chapter 3 - Marguerite
+
+MargBox is north of CorridorOustideHer.
+	"Standing before you, in this tight space, is the woman you saw from your box. Her beauty takes your breath away.
+
+	'Yes?' she says, waiting for a word from you. 'Well? Don't just stand there!'".
+	The printed name is  "The Box of the Mysterious Woman".
+[COMMENT:
+	In a future expansion, Marguerite is sitting in the box with Prudence, maybe making fun of you for being silly or something, but definitely not watching the play.
+	Also the rooms would be named Marguerite's Box, because you'd know the name.
+]
+Marguerite is here. Marguerite is a woman. 
+	"The most beautiful woman you've ever laid your eyes upon. Drapped in the finest silks and lace, dripping in the brightest diamonds, she dazzles your eyes with her beauty. In her arms, a gigantic bouquet of camellias. No words could ever express how enchanting she looks. [italic type]She must be mine!".
+After talking to Marguerite:
+	say "Perfection, absolutely beautiful,' you utter without thinking.
+
+	'So, he does talk, after all!' she laughs. 'What kind words from...' she waves her hand.
+
+	'Duval, Mademoiselle,' you kiss her hand.
+
+	'Well, Monsieur Duval,' she taps the seat next to her, chuckling. 'Do you have other kind words for me?'";
+	end the story finally;
+[COMMENT:
+	have a kissing action without talking -> maybe kiss her hand? but if you kiss her lips it's a bad ending directly?
+]
+	
+Chapter 4 - Other actions
+
+Instead of taking off the attire:
+	say "It would be improper to undress. Especially here!".
+
+Chapter Fin - Other comments
+
+[COMMENTS: Below are all the ideas I had with the game but had to cut because of the wordcount (or because I don't know how to fix it yet. This inlcudes:
+	- have a randomiser on the bad playthrough at the start (maybe still able to talk to her, but she'll always be non-committed if she has red camellias)
+	- have a larger Theatre, that you can explore, and potentially leave without your dulcinée (BAD ENDING).
+	- watching the opera below (with inner comments), and taking too long would trigger a BAD ENDING
+	- having to complete a task for Marguerite so she'd deign talking to you (like getting her candy from a seller in the Opera or outside)
+	- moving between rooms, you hear things told by passers-by (like whispers about you, random gossips etc...) or your inner thoughts.
+	- Like huge maybe and maybe not worth it, but go further than the meeting, and have a dalliance with Marguerite where you'd need to balance your limited money and her spending requests (some sort of stats management where you will always lose), but it would probably be better with a hyperlink/choice format?
+	- just plainly more possible actions 
+
+Below are code that I started but had to cut off:	
+	- The box chair is a kind of supporter. The box chair is always enterable. The player is sitting on the box chair. 
+		-> this is giving me and error
+	-  Understand "watch [the play]" as watching.
+		Instead of Watching play:
+			end the story saying "LOL"
+		-> this is not accepting "watch" as a verb for some reason
+	- Understand "knock [door]" as knocking on the door.
+		Instead of knocking on the door:
+			say "Test";
+			go to MargBox.
+		-> this is not accepting "knock" as a verb for some reason.
+
+Rooms I cut off because of wordcount:
+The Stairs is southwest of CorridorOutsideYou. The Stairs is southeast of CorridorOutsideHer.
+	"The main stairs joining the entrance to the boxes. West if your box, east is Marguerite's. Down is the entrance.".
+	The printed name is "The Main Staircase".
+	
+Entrance is down of the Stairs.
+	"You stand in the entrance, where you can exit the Opera through the large doors, or walk back up the stairs to the boxes".
+	The printed name is "The Main Entrance".
+Street is outside of Entrance.
+	"Too afraid to talk to the woman, you exit the Opera, even though the play is still ongoing.
+
+	[italic type]Maybe I'll be less cowardly next time...[roman type]".
+	The printed name is "The Street outside the Opera".
+After entering the room:
+	end the story finally.
+]
